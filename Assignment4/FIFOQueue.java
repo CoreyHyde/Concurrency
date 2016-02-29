@@ -1,5 +1,3 @@
-package Assignment4;
-
 interface FIFOQueue {
     void enqueue(Item item);// never fails
     Item dequeue();         // returns null if empty,
